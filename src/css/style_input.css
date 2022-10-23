@@ -1,0 +1,14 @@
+.window{
+    position: absolute;
+    left: calc(50% - 300px);
+    top: calc(50% - 300px);
+    display: block;
+    border: solid 4px #006B53;
+    width: 600px;
+    height: 650px;
+    background-color: #5ED2B8;
+}
+
+.object{
+    text-align: center;
+}
