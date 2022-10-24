@@ -1,14 +1,42 @@
-.window{
-    position: absolute;
-    left: calc(50% - 300px);
-    top: calc(50% - 300px);
+body {
+    font-family: Arial, sans-serif;
+}
+
+.window {
+    display: block;
+    margin: 13% auto;
     display: block;
     border: solid 4px #006B53;
+    border-radius: 30px;
     width: 600px;
     height: 650px;
     background-color: #5ED2B8;
 }
 
-.object{
+.one p,
+.two p {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.window h2{
     text-align: center;
+}
+
+.object {
+    display: block;
+    margin-top: calc(50% - 100px);
+    margin-left: calc(50% - 295px);
+    text-align: center;
+}
+
+.object input{
+    border-radius: 20px;
+    
+}
+
+.window button {
+    margin-top: 20px
 }

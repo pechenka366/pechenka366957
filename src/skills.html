@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>skills</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 
 <body>
@@ -15,10 +16,10 @@
             <div class="container">
                 <div class="row">
                     <div class="full_header">
-                        <div class="logo offset-xxl-1 col-xxl-1">
+                        <div class="logo offset-xxl-1 col-xxl-2 col-xl-2 ">
                             <span>Chita-Turizm</span>
                         </div>
-                        <div class="header_menu offset-xxl-5 col-xxl-6 d-none d-lg-block">
+                        <div class="header_menu offset-xxl-4 col-xxl-7 offset-xl-3 col-xl-9 offset-lg-3  d-none d-lg-block">
                             <ul class="spisoc">
                                 <li><a class="li_men" href="#">Акции</a></li>
                                 <li><a class="li_men" href="#">Поиск</a></li>
@@ -31,11 +32,59 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="col-6  d-flex d-lg-none flex-column justify-content-center align-items-end">
+                            <div class="dropdown">
+                                <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    menu
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="li_men dropdown-item" href="#">Акции</a></li>
+                                    <li><a class="li_men dropdown-item" href="#">Поиск</a></li>
+                                    <li><a class="li_men dropdown-item" href="#">Регистрация</a></li>
+                                    <li><a class="li_four li_men dropdown-item" href="#">Личный кабинет</a></li>
+                                    <li><a class="li_men dropdown-item" href="input.html">Вход</a></li>
+                                    <li><a class="li_men dropdown-item" href="registracion.html">Регистрация</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
+    <main>
+        <section class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="justify-content-center">
+                        <div class="title text-center">
+                            <h1>В Чите есть,<br> что посмотреть</h1>
+                            <h4>Chita-Turism</h4>
+                            <button id='1' class="br btn btn-dark">Заказать экскурсию</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="">
+                        <div class="slider text-center justify-content-center">
+                            <div class="slider-line">
+                                <img src="img/caption.jpg" alt="">
+                                <img src="img/kazanskij-sobor.jpg" alt="">
+                                <img src="img/ploshhad-lenina.jpg" alt="">
+                            </div>
+                        </div>
+                        <button class="slider-nazad btn btn-dark">Назад</button>
+                        <button class="slider-next btn btn-dark">Далее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="js/slider.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

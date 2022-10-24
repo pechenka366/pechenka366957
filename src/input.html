@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>input</title>
     <link rel="stylesheet" href="css/style_input.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -11,12 +12,18 @@
 <body>
     <div class="global">
         <div class="window">
+            <h2>Вход</h2>
             <div class="object">
-                <div class="one"><p>Логин<p> <input type="email" name="login"></div>
-                <div class="two"><p>Пароль</p> <input type="password" name="pass"></div>
+                <div class="one">
+                    <p>Логин</p> <input class="classListOne log" type="text" name="login">
+                </div>
+                <div class="two">
+                    <p>Пароль</p> <input class="classListTwo pas" type="password" name="pass">
+                </div>
+                <button type="button" class="brr btn btn-dark">Войти</button>
             </div>
         </div>
     </div>
-</body>
-
-</html>
+    <script src="js/reg_input.js"></script>
+    <script src="js/input.js"></script>
+</body></html>
